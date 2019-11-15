@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/image">
+        <file alias="logo">img/logo.png</file>
+        <file alias="logo2">img/logo2.png</file>
+        <file alias="add">img/add.png</file>
+        <file alias="change">img/change.png</file>
+        <file alias="delete">img/delete.png</file>
+        <file alias="info_manage">img/info_manage.png</file>
+        <file alias="close">img/close.png</file>
+        <file alias="logo_icon">img/logo_icon.png</file>
+        <file alias="save">img/save.png</file>
+        <file alias="file">img/file.png</file>
+        <file alias="add_data">img/add_data.png</file>
+        <file alias="dot">img/dot.png</file>
+    </qresource>
+</RCC>

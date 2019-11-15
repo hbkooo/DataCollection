@@ -1,0 +1,255 @@
+<工程>
+
+	<厂商信息>
+		<国家>
+			<item>中国</item>
+		</国家>
+	</厂商信息>
+	
+	<设备信息>
+		<设备类型>
+			<item>容器类</item>
+			<item>旋转机械类</item>
+			<item>热换器类</item>
+			<item>集成类</item>
+			<item>电子类</item>
+		</设备类型>
+		<是否寿命件>
+			<item>是</item>
+			<item>否</item>
+		</是否寿命件>
+		<寿命单位>
+			<item>分钟</item>
+			<item>小时</item>
+			<item>天</item>
+			<item>周</item>
+			<item>月</item>
+			<item>年</item>
+		</寿命单位>
+	</设备信息>
+	
+	<部件信息>
+		<是否寿命件>
+			<item>是</item>
+			<item>否</item>
+		</是否寿命件>
+		<寿命单位>
+			<item>分钟</item>
+			<item>小时</item>
+			<item>天</item>
+			<item>周</item>
+			<item>月</item>
+			<item>年</item>
+		</寿命单位>
+		<是否备件>
+			<item>是</item>
+			<item>否</item>
+		</是否备件>
+		<是否标准件>
+			<item>是</item>
+			<item>否</item>
+		</是否标准件>
+		<可修复>
+			<item>是</item>
+			<item>否</item>
+		</可修复>
+	</部件信息>
+	
+	<零配件信息>
+		<是否寿命件>
+			<item>是</item>
+			<item>否</item>
+		</是否寿命件>
+		<寿命单位>
+			<item>分钟</item>
+			<item>小时</item>
+			<item>天</item>
+			<item>周</item>
+			<item>月</item>
+			<item>年</item>
+		</寿命单位>
+		<是否备件>
+			<item>是</item>
+			<item>否</item>
+		</是否备件>
+		<是否标准件>
+			<item>是</item>
+			<item>否</item>
+		</是否标准件>
+		<是否易损件>
+			<item>是</item>
+			<item>否</item>
+		</是否易损件>
+		<可修复>
+			<item>是</item>
+			<item>否</item>
+		</可修复>
+	</零配件信息>
+	
+	<工具>
+		<物品类型>
+			<item>专用工具</item>
+			<item>通用工具</item>
+			<item>专用测试设备</item>
+			<item>通用测试设备</item>
+			<item>便携式电子测试设备</item>
+			<item>消耗品</item>
+			<item>其他</item>
+		</物品类型>
+	</工具>
+	
+	<技术资料>
+		<资料类型>
+			<item>技术手册</item>
+			<item>操作手册</item>
+			<item>零件分解图册</item>
+			<item>培训手册/教材</item>
+			<item>图纸</item>
+			<item>保障物品清单</item>
+			<item>实验报告</item>
+			<item>其他</item>
+		</资料类型>
+		<资料所属>
+			<item>设备</item>
+			<item>部件</item>
+			<item>零配件</item>
+		</资料所属>
+		<图纸规格>
+			<item>4A0</item>
+			<item>2A0</item>
+			<item>A1</item>
+			<item>A2</item>
+			<item>A3</item>
+			<item>A4</item>
+			<item>A5</item>
+			<item>A6</item>
+			<item>A7</item>
+			<item>A8</item>
+			<item>A9</item>
+			<item>A10</item>
+			<item>其他</item>
+		</图纸规格>
+	</技术资料>
+	
+	<维修>
+		<维修级别>
+			<item>航员级</item>
+			<item>中继级</item>
+			<item>基地级</item>
+		</维修级别>
+		<时间单位>
+			<item>分钟</item>
+			<item>小时</item>
+			<item>天</item>
+			<item>周</item>
+			<item>月</item>
+			<item>年</item>
+		</时间单位>
+		<维修大类>
+			<item>预防性维修</item>
+			<item>修复性维修</item>
+			<item>视情维修</item>
+		</维修大类>
+	</维修>
+	
+	<!-- "系统大类"名字不可修改 -->
+	<系统大类>
+	
+		<EHL系统>
+			<!-- "设备信息"等名字不可修改 -->
+			<设备信息 max="6">
+				<param>额定耗气量 t/h</param>
+				<param>蒸汽入口压力 MPa</param>
+				<param>汽轮机转速 r/min</param>
+				<param>发电机功率 kw</param>
+			</设备信息>
+			<部件信息 max="2">
+				<param></param>
+			</部件信息>
+			<零配件信息 max="2">
+				<param></param>
+			</零配件信息>
+			<工具 max="3">
+				<param></param>
+			</工具>
+		</EHL系统>
+		
+		<HAQ与FSPB防护系统>
+			<!-- max属性表示最多的参数个数，不可修改 -->
+			<设备信息 max="6">
+				<param>热侧流量 t/h</param>
+				<param>热侧温降 ℃</param>
+				<param>热侧阻力降 MPa</param>
+				<param>冷侧流量 t/h</param>
+				<param>冷侧温降 ℃</param>
+				<param>冷侧阻力降 MPa</param>
+			</设备信息>
+			<部件信息 max="2">
+				<param>com_param1</param>
+				<param>com_param1</param>
+			</部件信息>
+			<零配件信息 max="2">
+				<param>sep_param1</param>
+				<param>sep_param2</param>
+			</零配件信息>
+			<工具 max="3">
+				<param>tool_param1</param>
+				<param>tool_param2</param>
+			</工具>
+		</HAQ与FSPB防护系统>
+		
+		<动力综合控制系统>
+			<设备信息 max="6">
+				<param>功率 KW</param>
+			</设备信息>
+			<部件信息 max="2">
+				<param></param>
+			</部件信息>
+			<零配件信息 max="2">
+				<param></param>
+			</零配件信息>
+			<工具 max="3">
+				<param></param>
+			</工具>
+		</动力综合控制系统>
+		
+		<放射性防护系统>
+			<设备信息 max="6">
+				<param>功率 KW</param>
+				<param>抽气速率 m3/h</param>
+				<param>泵转速 r/min</param>
+			</设备信息>
+			<部件信息 max="2">
+				<param></param>
+			</部件信息>
+			<零配件信息 max="2">
+				<param></param>
+			</零配件信息>
+			<工具 max="3">
+				<param></param>
+			</工具>
+		</放射性防护系统>
+		
+		<中间回路系统>
+			<设备信息 max="6">
+				<param>热侧流量 t/h</param>
+				<param>热侧温降 ℃</param>
+				<param>热侧阻力降 MPa</param>
+				<param>冷侧流量 t/h</param>
+				<param>冷侧温降 ℃</param>
+				<param>冷侧阻力降 MPa</param>
+			</设备信息>
+			<部件信息 max="2">
+				<param></param>
+			</部件信息>
+			<零配件信息 max="2">
+				<param></param>
+			</零配件信息>
+			<工具 max="3">
+				<param></param>
+			</工具>
+		</中间回路系统>
+		
+	</系统大类>
+
+</工程>
